@@ -1,0 +1,7 @@
+interface:
+  display_name: "Tri CLI Deliberation"
+  short_description: "Cross-check hard questions across three local CLIs."
+  default_prompt: "Use $tri-cli-deliberation to compare this hard question across my local Codex, Claude Code, and Gemini CLIs, then synthesize the strongest final answer."
+
+policy:
+  allow_implicit_invocation: true
